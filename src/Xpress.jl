@@ -87,12 +87,12 @@ module Xpress
     # license checker
     include("xprs_userlic.jl")
 
-    function __init__()
+    # function __init__()
 
-        # some lics require special check
-        userlic()
+    #     # some lics require special check
+    #     userlic()
 
-        # start Xpress with XPRSinit
-        Env()
-    end
+    #     # start Xpress with XPRSinit
+    #     Env()
+    # end
 end
