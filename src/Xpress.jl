@@ -2,12 +2,12 @@ __precompile__()
 
 module Xpress
 
-    fn = joinpath(dirname(@__FILE__),"..","deps","deps.jl")
-    if isfile(fn)
-        include(fn)
-    else
-        error("Xpress not properly installed. Please run Pkg.build(\"Xpress\")")
-    end
+    # fn = joinpath(dirname(@__FILE__),"..","deps","deps.jl")
+    # if isfile(fn)
+    #     include(fn)
+    # else
+    #     error("Xpress not properly installed. Please run Pkg.build(\"Xpress\")")
+    # end
 
     ### imports
 
